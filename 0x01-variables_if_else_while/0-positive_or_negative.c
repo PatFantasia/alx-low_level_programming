@@ -1,11 +1,11 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include <time.h>
 
 /**
- * main :  print the state of n
+ * main - print the state of n
  * n : random value
- * return : always 0
+ * Return : Always 0 (Success)
  */
 
 int main(void)
