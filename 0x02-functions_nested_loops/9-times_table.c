@@ -22,16 +22,28 @@ void times_table(void)
 			{
 				_putchar((k % 10) + '0');
 				_putchar(',');
-				_putchar(' ');
 				if (k < 10)
 				{
 					_putchar(' ');
+					_putchar(' ');
+				}
+				else
+				{
 					_putchar(' ');
 				}
 			}
 			else
 			{
 				_putchar((k % 10) + '0');
+				if (k < 10)
+				{
+					_putchar(' ');
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar(' ');
+				}
 				_putchar('\n');
 			}
 			j++;
