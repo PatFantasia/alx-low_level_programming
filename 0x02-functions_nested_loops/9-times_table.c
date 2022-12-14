@@ -24,8 +24,10 @@ void times_table(void)
 				_putchar(' ');
 			}
 			else
+			{
 				_putchar(k + '0');
-			_putchar('\n');
+				_putchar('\n');
+			}
 			j++;
 		}
 		i++;
