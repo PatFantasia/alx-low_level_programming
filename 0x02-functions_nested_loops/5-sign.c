@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_sing - prints the sign of an input
+ * print_sign - prints the sign of an input
  * @n: the input to check sign
  * Return : 0 if input is equal to zero,
  * 1 if it greater than zero and -1 if it less than zero
  */
 
-int print_sing(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
