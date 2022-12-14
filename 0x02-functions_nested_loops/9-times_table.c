@@ -34,6 +34,7 @@ void times_table(void)
 				_putchar((k % 10) + '0');
 				j == 9 ? _putchar('\n') : _putchar(',');
 			}
+			_putchar('\n');
 			j++;
 		}
 		i++;
