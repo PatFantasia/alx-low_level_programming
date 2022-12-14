@@ -27,23 +27,14 @@ void times_table(void)
 					_putchar(' ');
 					_putchar(' ');
 				}
-				else
+				else if (k >= 10)
 				{
 					_putchar(' ');
 				}
 			}
-			else
+			else if (j == 9)
 			{
 				_putchar((k % 10) + '0');
-				if (k < 10)
-				{
-					_putchar(' ');
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar(' ');
-				}
 				_putchar('\n');
 			}
 			j++;
