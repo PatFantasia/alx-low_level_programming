@@ -3,8 +3,9 @@
 /**
  * print_sign - prints the sign of an input
  * @n: the input to check sign
- * Return : 0 if input is equal to zero,
- * 1 if it greater than zero and -1 if it less than zero
+ * Return : 0 and prints 0 if n is equal to zero
+ * 1 and prints + if n is greater than zero
+ *-1 and print - if it less than zero
  */
 
 int print_sign(int n)
