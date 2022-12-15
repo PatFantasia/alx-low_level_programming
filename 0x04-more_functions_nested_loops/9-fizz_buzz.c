@@ -15,8 +15,7 @@ void fizz_buzz(void)
 
 	while (i <= 100)
 	{
-		i % 3 == 0 ? printf("Fizz ") : i % 5 == 0 ? printf("Buzz ")
-		: i % 15 == 0 ? printf("FizzBuzz ") : printf("%d ", i);
+		i % 3 == 0 ? printf("Fizz ") : i % 5 == 0 ? printf("Buzz ") : i % 15 == 0 ? printf("FizzBuzz ") : printf("%d ", i);
 		i++;
 	}
 	printf("\n");
