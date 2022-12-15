@@ -9,7 +9,7 @@
  * Each number or word should be separated by a space
 */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i = 1;
 
@@ -34,4 +34,5 @@ void fizz_buzz(void)
 		i++;
 	}
 	printf("\n");
+	return (0);
 }
