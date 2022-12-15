@@ -10,7 +10,7 @@ int _isupper(int c)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
 		if (c == letter)
 			return (1);
