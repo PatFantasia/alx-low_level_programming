@@ -4,23 +4,23 @@
  * _strcat - concactenates two strings
  * @src: source of string to append
  * @dest: destination for appending src string
- * @n: add n byte to dest from src
  * Return: a pointer containing the concatenation result
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int i = 0, k = 0;
+	int i = 0, j = 0;
 
 	while (dest[i])
 		i++;
 
-	while (k < n && src[k])
+	while (src[j])
 	{
-		dest[i] = src[k];
+		dest[i] = src[j];
 		i++;
-		k++;
+		j++;
 	}
+
 	dest[i] = '\0';
 	return (dest);
 
