@@ -8,7 +8,7 @@
 
 char *leet(char *s)
 {
-	int i = 0, j = 0;
+	int i = 0, j;
 
 	/*char letter[] = "AaEeOoTtLl";*/
 	char letter[] = "aAeEoOtTlL";
@@ -22,7 +22,7 @@ char *leet(char *s)
 			if (s[i] == letter[j])
 			{
 				s[i] = code[j];
-				break;
+				/*break;*/
 			}
 			j++;
 		}
