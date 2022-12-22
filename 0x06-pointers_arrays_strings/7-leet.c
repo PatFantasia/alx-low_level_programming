@@ -8,25 +8,22 @@
 
 char *leet(char *s)
 {
-	int i = 0, j;
+	int i, c = 0;
+	int sl[] = {97, 101, 111, 116, 108};
+	int ul[] = {65, 69, 79, 84, 76};
+	int n[] = {52, 51, 48, 55, 49};
 
-	/*char letter[] = "AaEeOoTtLl";*/
-	char letter[] = "aAeEoOtTlL";
-	char code[] = "4433007711";
-
-	while (s[i])
+	while (s[c] != '\0')
 	{
-		j = 0;
-		while (letter[j] != '\n')
+		for (i = 0; i < 5; i++)
 		{
-			if (s[i] == letter[j])
+			if (s[c] == sl[i] || s[c] == ul[i])
 			{
-				s[i] = code[j];
+				s[c] = n[i];
 				break;
 			}
-			j++;
 		}
-		i++;
+		c++;
 	}
 	return (s);
 }
