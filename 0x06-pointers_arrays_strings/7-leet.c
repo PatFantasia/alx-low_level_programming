@@ -18,7 +18,10 @@ char *leet(char *s)
 		while (letter[j])
 		{
 			if (s[i] == letter[j])
+			{
 				s[i] = code[j];
+				break;
+			}
 			j++;
 		}
 		i++;
