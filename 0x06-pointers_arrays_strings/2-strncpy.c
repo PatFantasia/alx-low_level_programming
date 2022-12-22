@@ -1,10 +1,14 @@
+#include "main.h"
 
 /**
- * _strncopy - copies two strings
- * @src: source of string to append
- * @dest: destination for appending src string
- * @n: add n byte to @dest from @src
- * Return: @dest a pointer containing the copy
+
+ * _strncpy - A function that copies a string.
+ *
+ * @dest: pointer to destination input buffer
+ * @src: pointer to source input buffer
+ * @n: bytes of @src
+ *
+ * Return: @dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -18,6 +22,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-
 	return (dest);
 }
