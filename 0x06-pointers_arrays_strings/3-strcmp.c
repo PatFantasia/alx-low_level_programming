@@ -23,7 +23,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		while (s1[j])
 		{
-			result = (s1[j] == s2[j]) ? 0 : -1;
+			result = (s1[j] == s2[j]) ? s1[j] - s2[j] : -1;
 			j++;
 		}
 	}
