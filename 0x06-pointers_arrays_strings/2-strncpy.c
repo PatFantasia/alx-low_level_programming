@@ -1,4 +1,3 @@
-#include "main.h"
 
 /**
  * _strncopy - copies two strings
