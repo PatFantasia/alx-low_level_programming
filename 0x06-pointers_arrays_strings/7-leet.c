@@ -19,7 +19,7 @@ char *leet(char *s)
 		{
 			if (s[i] == letter[j])
 				s[i] = code[j];
-			j++
+			j++;
 		}
 		i++;
 	}
