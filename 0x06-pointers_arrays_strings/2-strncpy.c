@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-
  * _strncpy - A function that copies a string.
  *
  * @dest: pointer to destination input buffer
