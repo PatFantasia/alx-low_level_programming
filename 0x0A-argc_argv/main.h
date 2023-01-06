@@ -1,8 +1,6 @@
-#ifndef _MAIN_H_
+#ifndef MAIN_H
 
-#define _MAIN_H_
-
-/* int _putchar(char c);
- * int check_num(char *str);
- */
+#define MAIN_H
+int _putchar(char c);
+int check_num(char *str);
 #endif
