@@ -6,7 +6,7 @@
  * @name: dog's name (*char)
  * @age: the dog's age (int)
  * @owner: dog's owner (*char)
- */
+*/
 
 struct dog
 {
@@ -15,4 +15,4 @@ struct dog
 	char *owner;
 };
 
-#endif
+#endif /* struct dog */
