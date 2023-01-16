@@ -4,14 +4,14 @@
 /**
  * struct dog - new type dog
  * @name: dog's name (*char)
- * @age: the dog's age (int)
+ * @age: the dog's age (float)
  * @owner: dog's owner (*char)
 */
 
 struct dog
 {
 	char *name;
-	int age;
+	float age;
 	char *owner;
 };
 
