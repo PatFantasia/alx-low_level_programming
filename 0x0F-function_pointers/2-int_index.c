@@ -28,5 +28,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			if (y == TRUE)
 				return (index);
 		}
+	}
 	return (-1);
 }
