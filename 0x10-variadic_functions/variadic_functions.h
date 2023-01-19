@@ -1,6 +1,6 @@
-#ifndef MAIN_H
+#ifndef VARIADIC_FUNCTIONS
 
-#define MAIN_H
+#define VARIADIC_FUNCTIONS
 
 
 
