@@ -1,25 +1,18 @@
 #include <unistd.h>
-
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <fcntl.h>
-
 #include "main.h"
-
-
 
 #define READ_ERR "Error: Can't read from file %s\n"
 #define WRITE_ERR "Error: Can't write to %s\n"
 
-
- /**
-  * main - check the code for Holberton School students.
-  * @argc: num of args
-  * @argv: args
-  * Return: Always 0.
-  */
+/**
+ * main - check the code for Holberton School students.
+ * @argc: num of args
+ * @argv: args
+ * Return: Always 0.
+ */
 
 int main(int argc, char **argv)
 {
