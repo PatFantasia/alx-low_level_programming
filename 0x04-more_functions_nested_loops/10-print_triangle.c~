@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of triangle
+*/
+
+int print_triangle(int size)
+{
+	int i;
+
+	for (i = 1; i <= 100; i++)
+	{
+		
+
+	}
+	printf("\n");
+
+	return (0);
+}
